@@ -23,7 +23,7 @@ const byte physicalButtons[TOTAL_BUTTONS] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
 const int whammyPin = 34;
 int previousWhammyVal = 0;
 
-BleGamepad bleGamepad("Thias' Guitar", "Ildis6 Inc©", 100);
+BleGamepad bleGamepad("Name", "Manufacturer", 100);
 Bounce debouncers[TOTAL_BUTTONS];
 
 void setup()
